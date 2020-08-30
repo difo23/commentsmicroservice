@@ -1,0 +1,32 @@
+
+
+### Get all elements in comments
+
+GET http://localhost:4001/posts/abcdefg/comments
+
+
+### Get all elements in comments
+
+GET http://localhost:4001/posts/cdfghig/comments
+
+
+
+### Post create one comments element #1
+
+POST http://localhost:4001/posts/abcdefg/comments 
+Content-Type: application/json
+
+{
+    "content":"Comentarios nuevos cada abcdefg"
+}
+
+
+
+### Post create one comments element post  #2
+
+POST http://localhost:4001/posts/cdfghig/comments 
+Content-Type: application/json
+
+{
+    "content":"Comentarios nuevos cada cdfghig"
+}
